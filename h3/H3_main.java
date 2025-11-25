@@ -1,9 +1,8 @@
 package h3;
-//import java.util.Arrays;
 
 public class H3_main {
     public static void main(String[] args) {
-        //System.out.println(compareArraysVal(new int[]{4,1,2,3,3,7,7,4,4,7}, new int[]{4,4,4,7,7,3,1,2,3}));
+        //System.out.println(compareArraysVal(new int[]{4,1,2,3,3,7,7,4,4}, new int[]{4,4,4,7,7,3,1,2,3}));
     }
 
     public static boolean compareArraysVal(int[] a, int[] b) {
@@ -44,8 +43,4 @@ public class H3_main {
             }
         return (numberCount==bNumberCount);
     }
-
-    //public static boolean compareArraysVal2(int[] a, int[] b) {
-    //    return Arrays.equals(Arrays.stream(a).sorted().toArray(), Arrays.stream(b).sorted().toArray());
-    //}
 }
